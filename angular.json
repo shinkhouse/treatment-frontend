@@ -9,9 +9,6 @@
         "@schematics/angular:component": {
           "style": "scss"
         },
-        "@schematics/angular:application": {
-          "strict": true
-        }
       },
       "root": "",
       "sourceRoot": "src",
@@ -127,5 +124,8 @@
       }
     }
   },
-  "defaultProject": "treatment-frontend"
+  "defaultProject": "treatment-frontend",
+  "cli": {
+    "analytics": "066ca565-2f5e-4df9-958d-c9953eab3b38"
+  }
 }
